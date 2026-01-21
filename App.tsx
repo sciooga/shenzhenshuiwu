@@ -7,6 +7,7 @@ import ProductsView from './views/ProductsView';
 import ProductDetailView from './views/ProductDetailView';
 import CartView from './views/CartView';
 import AuthView from './views/AuthView';
+import NewsView from './views/NewsView';
 import { ThemeProvider, useTheme } from './ThemeContext';
 import { CartProvider } from './CartContext';
 import { MOCK_PRODUCTS } from './constants';
@@ -105,7 +106,7 @@ const AppContent: React.FC = () => {
           />
         );
       case 'news':
-        return <PlaceholderView name="行业资讯" />;
+        return <NewsView />;
       default:
         return <HomeView user={user} onProductClick={handleProductClick} />;
     }

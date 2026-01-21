@@ -1,4 +1,5 @@
 
+
 export const THEME = {
   primary: '#008184',
   secondary: '#004B4D',
@@ -116,9 +117,51 @@ export const MOCK_WELFARE = [
 ];
 
 export const MOCK_NEWS = [
-  { id: 'n1', type: 'news', title: '智慧供水，科技赋能', summary: '深圳水务启动数字化升级', date: '03-24' },
-  { id: 'n2', type: 'notice', title: '管网维护公告', summary: '部分片区夜间低压供水', date: '03-25' },
-  { id: 'n3', type: 'activity', title: '空瓶回收活动', summary: '参与回收赢精美好礼', date: '03-23' }
+  { 
+    id: 'n1', 
+    type: 'news', 
+    title: '智慧供水，科技赋能', 
+    summary: '深圳水务启动数字化升级，全新智能水表将覆盖90%居民区。', 
+    date: '03-24',
+    content: '为响应国家智慧城市建设号召，深圳水务集团正式启动“智慧供水2.0”计划。本次升级将重点对老旧小区的机械水表进行智能化改造，预计今年年底前，全市90%的居民用户将用上能够实时传输数据的智能水表。这不仅能有效解决抄表难的问题，还能通过大数据分析，帮助居民更科学地管理用水习惯，及时发现漏水隐患。',
+    image: 'https://images.unsplash.com/photo-1581092921461-eab62e97a782?q=80&w=600&auto=format&fit=crop'
+  },
+  { 
+    id: 'n2', 
+    type: 'notice', 
+    title: '管网维护公告', 
+    summary: '因罗湖区部分供水管网升级改造，部分片区将实行夜间低压供水。', 
+    date: '03-25',
+    content: '尊敬的用户：\n\n为提升供水安全保障能力，我司计划于2024年3月28日（周四）23:00至次日06:00，对罗湖区沿河路段的主供水管道进行升级维护。届时，沿河路以南、春风路以北片区的水压将有所降低，高层用户可能会出现暂时性缺水现象。\n\n请相关区域用户提前做好储水准备。给您带来的不便，敬请谅解。\n\n如有疑问，请拨打24小时服务热线：96968。',
+    image: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=600&auto=format&fit=crop'
+  },
+  { 
+    id: 'n3', 
+    type: 'activity', 
+    title: '空瓶回收活动', 
+    summary: '参与空瓶回收计划，赢取精美环保好礼及积分奖励。', 
+    date: '03-23',
+    content: '为了保护环境，减少塑料污染，HydroPop 正式推出“空瓶新生”计划！\n\n即日起，将您饮用完毕的 HydroPop 品牌水空瓶（需保持瓶身完整）收集起来，交由我们的配送员或送至指定线下回收点，即可获得环保积分。\n\n每回收10个空瓶，即可获赠 50 积分，积分可在商城兑换环保袋、随行杯等精美周边。让我们一起行动，为地球减负！',
+    image: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?q=80&w=600&auto=format&fit=crop'
+  },
+  { 
+    id: 'n4', 
+    type: 'news', 
+    title: '夏季饮水健康指南', 
+    summary: '高温天气来袭，专家建议每日饮水量应达到2500ml。', 
+    date: '03-20',
+    content: '随着夏季高温天气的到来，人体水分流失加快。健康专家提醒，除了日常饮食摄入的水分外，成年人每日的主动饮水量应保持在2000ml-2500ml之间。\n\n建议少量多次饮用温开水或矿泉水，避免一次性大量饮用冰水，以免对肠胃造成刺激。此外，运动后可适当补充含有电解质的饮品，以维持体内水盐平衡。',
+    image: 'https://images.unsplash.com/photo-1543353071-873f17a7a088?q=80&w=600&auto=format&fit=crop'
+  },
+  { 
+    id: 'n5', 
+    type: 'activity', 
+    title: '会员日双倍积分', 
+    summary: '每月8号会员日，全场消费享双倍积分，更有好礼相送。', 
+    date: '03-18',
+    content: '感谢您一直以来的陪伴！为了回馈广大用户，我们将每月的8号设立为“HydroPop 会员日”。\n\n在会员日当天，所有等级会员在商城内的任意消费（不含运费），均可享受双倍积分奖励。同时，当天还将开启限时秒杀活动，多款人气爆品低至5折！定好闹钟，不要错过哦！',
+    image: 'https://images.unsplash.com/photo-1550989460-0adf9ea622e2?q=80&w=600&auto=format&fit=crop'
+  }
 ];
 
 export const MOCK_COUPONS = [
