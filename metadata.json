@@ -1,0 +1,7 @@
+{
+  "name": "深圳水务",
+  "description": "A vibrant, youthful water ordering and service mini-program interface.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
